@@ -35,6 +35,7 @@
     "eslint-plugin-standard": "^4.0.1",
     "eslint-plugin-testing-library": "^3.1.4",
     "husky": "^4.2.5",
+    "jest-chain": "^1.1.5",
     "jest-extended": "^0.11.5",
     "lint-staged": "^10.2.7",
     "prettier": "^2.0.5",
