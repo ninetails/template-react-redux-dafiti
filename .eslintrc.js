@@ -1,6 +1,12 @@
 module.exports = {
-  extends: ['react-app', 'standard', 'standard-react'],
-  plugins: ['react-hooks'],
+  extends: [
+    'react-app',
+    'standard',
+    'standard-react',
+    'plugin:testing-library/react',
+    'plugin:jest-dom/recommended'
+  ],
+  plugins: ['react-hooks', 'testing-library', 'jest-dom'],
   rules: {
     // react-hooks
     'react-hooks/rules-of-hooks': 'error', // Checks rules of Hooks
