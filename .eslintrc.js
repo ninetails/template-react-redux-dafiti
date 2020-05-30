@@ -18,5 +18,13 @@ module.exports = {
     'import/newline-after-import': 'error',
     'import/order': 'error',
     'jsx-quotes': ['error', 'prefer-double']
-  }
+  },
+  overrides: [
+    {
+      files: ['*.test.js'],
+      rules: {
+        'react/prop-types': 'off'
+      }
+    }
+  ]
 }
