@@ -27,6 +27,8 @@
   },
   "scripts": {
     "build": "react-scripts build",
+    "clean": "rimraf coverage node_modules build | :",
+    "reset": "$npm_execpath run clean && $npm_execpath install",
     "start": "react-scripts start",
     "test": "react-scripts test"
   }
