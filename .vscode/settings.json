@@ -15,7 +15,9 @@
     "commitlint.config.js": true,
     "build/": true,
     "coverage/": true,
-    "package-lock.json": true
+    "jsconfig.json": true,
+    "package-lock.json": true,
+    "src/setupTests.js": true
   },
   "[markdown]": {
     "editor.wordWrap": "wordWrapColumn",
