@@ -10,6 +10,7 @@ module.exports = {
     'arrow-parens': ['error', 'as-needed'],
     'import/extensions': ['error', 'always', { ignorePackages: true }],
     'import/newline-after-import': 'error',
-    'import/order': 'error'
+    'import/order': 'error',
+    'jsx-quotes': ['error', 'prefer-double']
   }
 }
