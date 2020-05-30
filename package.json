@@ -39,7 +39,9 @@
   "scripts": {
     "build": "react-scripts build",
     "clean": "rimraf coverage node_modules build | :",
-    "lint": "eslint src",
+    "fix": "$npm_execpath run prettier && $npm_execpath run lint -- --fix",
+    "lint": "eslint . --ext js,jsx",
+    "prettier": "prettier ./**/*.{css,html,js,jsx,json,md,scss,yaml,yml} --write",
     "reset": "$npm_execpath run clean && $npm_execpath install",
     "start": "react-scripts start",
     "test": "react-scripts test"
