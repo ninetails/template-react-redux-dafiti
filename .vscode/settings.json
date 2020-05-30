@@ -17,6 +17,7 @@
     "coverage/": true,
     "jsconfig.json": true,
     "package-lock.json": true,
+    "src/globals.d.ts": true,
     "src/setupTests.js": true
   },
   "[markdown]": {
