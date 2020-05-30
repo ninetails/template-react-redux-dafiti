@@ -1,0 +1,22 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "files.exclude": {
+    "**/node_modules": true,
+    "**/.*rc{,.js,.json,.yml,.yaml}": true,
+    "**/.*ignore": true,
+    ".editorconfig": true,
+    ".env*": true,
+    ".vscode/": true,
+    "LICENSE": true,
+    "commitlint.config.js": true,
+    "build/": true,
+    "coverage/": true,
+    "package-lock.json": true
+  },
+  "[markdown]": {
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wordWrapColumn": 80
+  }
+}
