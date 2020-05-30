@@ -6,6 +6,7 @@
     "**/node_modules": true,
     "**/.*rc{,.js,.json,.yml,.yaml}": true,
     "**/.*ignore": true,
+    "*.config.js": true,
     ".editorconfig": true,
     ".env*": true,
     ".vscode/": true,
